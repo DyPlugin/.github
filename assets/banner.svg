@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Dynasty Plugins</title>
+  <desc id="desc">Minecraft plugins, made simple. A dark banner with blue accents and connected isometric blocks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101827"/><stop offset="1" stop-color="#090d14"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="55" y1="0" x2="1145" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#345ad4"/><stop offset="0.7" stop-color="#a3b6ff"/><stop offset="1" stop-color="#345ad4" stop-opacity="0.1"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#a3b6ff" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="1198" height="318" rx="20" fill="url(#bg)" stroke="#28344a"/>
+  <rect x="1" y="1" width="1198" height="318" rx="20" fill="url(#grid)"/>
+  <path d="M56 49H1144" stroke="url(#accent)" stroke-width="2"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="56" y="91" fill="#a3b6ff" font-size="12" font-weight="700" letter-spacing="3">DYPLUGIN / MINECRAFT SERVER TOOLS</text>
+    <text x="52" y="165" fill="#f4f7ff" font-size="61" font-weight="700" letter-spacing="-2">Dynasty Plugins</text>
+    <text x="56" y="205" fill="#b6c2d6" font-size="22">Minecraft plugins, made simple.</text>
+    <text x="56" y="266" fill="#7f91ad" font-size="13" letter-spacing="1.2">PROTECT  /  EXPLORE  /  CONNECT  /  COME HOME</text>
+  </g>
+  <g stroke="#94acff" stroke-width="1.4" stroke-linejoin="round">
+    <path d="M918 102L978 68L1038 102L978 137Z" fill="#263c77"/>
+    <path d="M918 102V169L978 204V137Z" fill="#182749"/>
+    <path d="M978 137L1038 102V169L978 204Z" fill="#12203b"/>
+    <path d="M848 180L887 157L926 180L887 203Z" fill="#23365f"/>
+    <path d="M848 180V223L887 246V203Z" fill="#14233d"/>
+    <path d="M887 203L926 180V223L887 246Z" fill="#101b30"/>
+    <path d="M1054 194L1083 177L1112 194L1083 211Z" fill="#23365f"/>
+    <path d="M1054 194V227L1083 244V211Z" fill="#14233d"/>
+    <path d="M1083 211L1112 194V227L1083 244Z" fill="#101b30"/>
+    <path d="M926 214L978 244L1054 201" stroke-dasharray="4 6" stroke-opacity="0.55"/>
+  </g>
+</svg>
